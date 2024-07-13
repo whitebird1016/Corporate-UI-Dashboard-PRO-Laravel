@@ -1,0 +1,105 @@
+.gradient-custom-3 {
+    /* fallback for old browsers */
+    background: #84fab0;
+
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: -webkit-linear-gradient(to right, rgba(132, 250, 176, 0.5), rgba(143, 211, 244, 0.5));
+
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: linear-gradient(to right, rgba(132, 250, 176, 0.5), rgba(143, 211, 244, 0.5))
+}
+
+.gradient-custom-4 {
+    /* fallback for old browsers */
+    background: #84fab0;
+
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: -webkit-linear-gradient(to right, rgba(132, 250, 176, 1), rgba(143, 211, 244, 1));
+
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: linear-gradient(to right, rgba(132, 250, 176, 1), rgba(143, 211, 244, 1))
+}
+
+.btn-outline-custom:hover {
+    border: none;
+}
+
+.btn-outline-custom {
+    border: none;
+}
+
+
+/* Custom CSS for input styling */
+.pill-input {
+    border: 1px solid #ced4da;
+    border-radius: 25px;
+    /* Adjust the border-radius as needed */
+    padding: 6px 12px;
+    line-height: 1.5;
+    font-size: 0.875rem;
+    width: 10%;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.pill-input:focus {
+    border-color: #80bdff;
+    outline: 0;
+
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+
+.square-avatar {
+    width: 35px;
+    height: 35px;
+    object-fit: cover;
+}
+
+.dataTable-selector {
+    cursor: pointer;
+}
+
+.no-resize {
+    resize: none;
+}
+
+.choices__inner-tag {
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+
+.choices__list.choices__list--dropdown.is-active {
+    z-index: 2;
+}
+
+.choices__inner {
+    padding-top: 4px;
+    padding-right: 5px;
+    padding-bottom: 2px;
+    padding-left: 10px;
+}
+
+.choices[data-type*='select-one']:after {
+    right: 20px !important;
+}
+
+.table-responsive {
+    overflow: visible !important;
+}
+
+.photo-sizing {
+    height: 64px;
+    width: auto;
+}
+
+.dataTable-container {
+    height: 100% !important;
+}
+
+.input-style-photo {
+    opacity: 0;
+    position: absolute; 
+    top: 0; 
+    left: 0; 
+    width: auto; 
+    height: 100%;
+}
